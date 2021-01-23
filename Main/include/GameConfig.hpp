@@ -216,7 +216,7 @@ public:
 
 	// When this should change, the UpdateVersion MUST be updated to update the old config files.
 	// If there's no need to update the UpdateVersion, there's no need to touch this too.
-	constexpr static int32 VERSION = 1;
+	constexpr const static int32 VERSION = 1;
 
 	// Update the version of the config file to VERSION.
 	void UpdateVersion();
